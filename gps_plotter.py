@@ -17,7 +17,7 @@ for i in lines:
 gmap = gmplot.GoogleMapPlotter(lat_list[0], lon_list[0],20)
 gmap.scatter(lat_list, lon_list, '# FF0000', size = .5, marker = False )
 gmap.plot(lat_list, lon_list, 'cornflowerblue', edge_width = 2.5)
-gmap.apikey = " AIzaSyD6mC7oswdPVXu8vD1siD4bifw7N-1Mano "
+gmap.apikey = #ADD API KEY
 gmap.draw(save_location + "1")
 
 
